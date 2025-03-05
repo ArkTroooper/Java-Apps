@@ -8,5 +8,7 @@ public class comments
           and it will occupy more than one line
           as a comment and not as readable code
         */
+
+        //comments are useful
     }
 }
