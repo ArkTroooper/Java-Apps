@@ -5,7 +5,7 @@ public class DeclareMultipleVariables
     public static void main(String[] args)
     {
         //Declare multiple variable of a specific type on one line
-        
+
         int x, y, z;
         x = 1;
         y = 2;
@@ -40,6 +40,13 @@ public class DeclareMultipleVariables
         l = false;
 
         System.out.println(MessageFormat.format("k:{0}\nl:{1}",k,l));
+
+        //declaration and assignment
+        String m = "Here's ", n = "another ", o = "sentence";
+        int p = 1, q = 2, r = 3;
+        float s = 25.355f, t = 6821.2215f, u = 558.3366455554555f;
+        boolean v = true, w = false;
+        char aa = 'a', ab = 'a', ac = 'c'; 
 
     }
 }
