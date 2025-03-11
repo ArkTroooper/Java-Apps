@@ -25,8 +25,8 @@ public class JavaNumbers
         
         float f1 = 35e3f;               // Scientific numbers               
         double d1 = 12E4d;
-        System.out.println(MessageFormat.format("float * 10 to the power of 3:", f1));
-        System.out.println(MessageFormat.format("double * 10 to the power of 4:", d1));
+        System.out.println(MessageFormat.format("float * 10 to the power of 3: {0}", f1));
+        System.out.println(MessageFormat.format("double * 10 to the power of 4: {0}", d1));
 
     
     }
