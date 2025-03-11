@@ -16,10 +16,10 @@ public class JavaNumbers
         Long myLong = 150000000000000L; // -9223372036854775808 to 9223372036854775807
         System.out.println(MessageFormat.format("Long: {0}",myLong));
 
-        float myFloat = 87.3f;
+        float myFloat = 87.3f;          // 6-7 decimal points
         System.out.println(MessageFormat.format("Float: {0}",myFloat));
 
-        double myDouble = 19.999d;
+        double myDouble = 19.999d;      // 16 decimal points
         System.out.println(MessageFormat.format("Double: {0}",myDouble));
 
         
