@@ -22,6 +22,9 @@ public class JavaStrings
 
         System.out.println(MessageFormat.format("{0} {1}",name,surname));
         System.out.println(name + " " + surname);
-        
+        System.out.println(name.concat(surname));
+
+        // Java uses the + operator for both addition and concatenation 
+
     }
 }
