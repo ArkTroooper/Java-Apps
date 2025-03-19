@@ -15,5 +15,13 @@ public class JavaStrings
         String locate = "Please locate where 'locate' occurs!";
         System.out.println(MessageFormat.format("The index of the first letter of locate is: {0}", locate.indexOf("locate")));
 
+        //Concatenation 
+
+        String name = "name";
+        String surname = "surname";
+
+        System.out.println(MessageFormat.format("{0} {1}",name,surname));
+        System.out.println(name + " " + surname);
+        
     }
 }
