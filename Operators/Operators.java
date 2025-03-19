@@ -26,6 +26,10 @@ public class Operators
         >>= x = x >> 4
         <<= x = x << 4
 
+        &&  and 
+        ||  or  
+        !   not        
+
         */
         int x = 100 + 50;
 
