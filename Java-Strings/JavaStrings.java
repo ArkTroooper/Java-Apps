@@ -25,6 +25,13 @@ public class JavaStrings
         System.out.println(name.concat(surname));
 
         // Java uses the + operator for both addition and concatenation 
+        
+        //special characters
+
+        String quotationMarks = "We are the so-called \"Vikings\" from the north.";
+        String apostrophe = "It\'s alright";
+        
+
 
         
 
