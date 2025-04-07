@@ -25,7 +25,17 @@ public class JavaArrays
 
         for (String c : cars) 
         {
-            System.out.println(MessageFormat.format("Car in car :{0}",c));
+            System.out.println(MessageFormat.format("Car in cars :{0}",c));
+        }
+
+        for (int i = 0; i < myNums.length; i++) 
+        {   
+            System.out.println(MessageFormat.format("Number {0} in myNums :{1}",i,myNums[i]));
+        }
+
+        for (int i = 0; i < cars.length; i++) 
+        {
+            System.out.println(MessageFormat.format("Car {0} in cars :{1}",i,cars[i]));
         }
 
     }
