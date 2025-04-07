@@ -19,5 +19,11 @@ public class ForLoop
                 System.out.println(" inner count: "+j);
             }
         }
+        //for each loop
+        String[] cars = {"BMW","Volvo","Mazda"};
+        for (String car : cars) 
+        {
+            System.out.println(car);
+        }
     }
 }
