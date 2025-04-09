@@ -1,6 +1,5 @@
 import java.text.MessageFormat;
 import java.util.Random;
-import java.lang.Object;
 
 public class JavaArrays 
 {
@@ -37,6 +36,24 @@ public class JavaArrays
         {
             System.out.println(MessageFormat.format("Car {0} in cars :{1}",i,cars[i]));
         }
+        //Multidimensional Arrays
 
+        int[][] myNumbers = {{1,343,5,3563,547,3,4562},{245,62455,73,242,7,2,5,},{3252,234,26,67,4,90,0},{35462,267,8,0,7,4}}; //an Array of arrays
+        
+        for (int i = 0; i < myNumbers.length; ++i)  // .length still works. Length of Array of arrays 
+        {
+            for (int j = 0; j < myNumbers[i].length; ++j) //.length of array at element[i] - 
+            {
+              System.out.println(myNumbers[i][j]);
+            }
+        }
+        
+        for(int[] row : myNumbers)
+        {
+            for (int i : row) 
+            {
+                System.out.println(i);   
+            }
+        }
     }
 }
