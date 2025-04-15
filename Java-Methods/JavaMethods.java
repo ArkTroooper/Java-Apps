@@ -16,6 +16,7 @@ public class JavaMethods
     {
         System.out.println(MessageFormat.format("I like {0}", subject));
     }
+    //Multi parameter method
     static void nameAndAge(String name,int age)
     {
         System.out.println(MessageFormat.format("First name: {0} Age: {1}", name,age));
@@ -43,6 +44,6 @@ public class JavaMethods
         canConsumeAlcohol(15);
         canConsumeAlcohol(24);
 
-        
+
     }   
 }
