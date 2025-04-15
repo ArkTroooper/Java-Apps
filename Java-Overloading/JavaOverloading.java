@@ -1,26 +1,26 @@
 public class JavaOverloading {
 
     // Method 1: Returns an integer
-    public int calculate(int a, int b) {
+    static int Calculate(int a, int b) {
         return a + b;
     }
 
     // Method 2: Returns a double
-    public double calculate(double a, double b) {
+    static double Calculate(double a, double b) {
         return a * b;
     }
 
     // Method 3: Returns a string
-    public String calculate(String a, String b) {
+    static String Calculate(String a, String b) {
         return a + b;
     }
 
     public static void main(String[] args) {
-        JavaOverloading obj = new JavaOverloading();
+        //JavaOverloading obj = new JavaOverloading(); - another way to overload methods, the access modifier of the method should be public
 
         // Testing the overloaded methods
-        System.out.println("Integer addition: " + obj.calculate(5, 10));
-        System.out.println("Double multiplication: " + obj.calculate(2.5, 4.0));
-        System.out.println("String concatenation: " + obj.calculate("Hello, ", "World!"));
+        System.out.println("Integer addition: " + Calculate(5, 10)); //obj.Calculate(5, 10));
+        System.out.println("Double multiplication: " + Calculate(2.5, 4.0)); //obj.Calculate(2.5, 4.0));
+        System.out.println("String concatenation: " + Calculate("Hello, ", "World!")); //obj.Calculate("Hello, ", "World!"));
     }
 }
