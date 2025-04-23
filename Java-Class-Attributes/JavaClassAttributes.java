@@ -1,13 +1,13 @@
 public class JavaClassAttributes 
 {
     int x = 5; // Instance variable 
-    int y = 10; // Other nstance variable    
+    int y = 10; // Other instance variable    
 
     final int z = 15; // Constant
     public static void main(String[] args) 
     {
-        JavaClassAttributes obj = new JavaClassAttributes(); // Create an object of the JavaClassAttributes
-        System.out.println("Vakue of x: " + obj.x); // Access my instance variable
+        JavaClassAttributes obj = new JavaClassAttributes(); // Create an object of JavaClassAttributes
+        System.out.println("Value of x: " + obj.x); // Access my instance variable
         System.out.println("Value of y: " + obj.y); // Access my other instance variable
 
         obj.x = 20; // Modify my instance variable
